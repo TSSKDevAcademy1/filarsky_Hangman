@@ -1,0 +1,1 @@
+Toto je môj prvy projekt uploadnuty na github.
