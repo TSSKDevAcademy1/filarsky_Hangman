@@ -65,7 +65,7 @@ els.textContent = getGuessedWord(secret,lettersGuessed);
 if(secret.indexOf(el.textContent) == -1) {
 	counter++;
 	var img = document.getElementById('situation');
-	img.setAttribute('src', 'images/phase' + counter );
+	img.setAttribute('src', 'images/phase' + counter + '.png' );
 }
   //check game state
   if(counter == 5) {
