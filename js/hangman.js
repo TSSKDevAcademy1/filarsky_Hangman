@@ -1,6 +1,6 @@
 var secret ='JAVASCRIPT';
 var lettersGuessed ='';
-var counter = 0;
+var counter = 1;
 
 function getGuessedWord(secret, lettersGuessed) {
 	var result ='';
@@ -72,7 +72,7 @@ btn2.setAttribute('class', 'btn btn-primary');
 btn2.textContent = 'Restart';
 document.getElementById('secret2').appendChild(btn2);
 
-btn2.addEventListener('click', function onClick2() {counter=0;lettersGuessed='';
+btn2.addEventListener('click', function onClick2() {counter=1;lettersGuessed='';
 	document.getElementById('buttons').innerHTML = "";
 	document.getElementById('secret').innerHTML = "";
 	el.textContent = getGuessedWord(secret,lettersGuessed)
